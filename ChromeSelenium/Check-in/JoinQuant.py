@@ -14,7 +14,7 @@ from Messaging.Msg import *
 username = sys.argv[1]  # 登录账号
 password = sys.argv[2]  # 登录密码
 
-bot_id = sys.argv[3]  # 机器人编号
+
 
 website = "https://www.joinquant.com/user/login/index?type=login"
 
@@ -147,7 +147,7 @@ except Exception:
     print("\n===> Err: < 显示当前积分 >")
     msg += "---- 无法显示积分! ----\n"
 
-Feishu_SendCardMsg(bot_id, title, msg)
+
 
 # 退出Chrome
 browser.quit()
